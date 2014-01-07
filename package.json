@@ -6,6 +6,7 @@
     "name":  "Jonas Hermsmeier",
     "email": "jhermsmeier@gmail.com"
   },
+  "main": "two-line-element",
   "repository": {
     "type": "git",
     "url":  "https://github.com/jhermsmeier/node-tle.git"
