@@ -29,15 +29,30 @@ function TLE() {
 
 module.exports = TLE
 
-TLE.parse = function( str ) {
-  return new TLE().parse( str )
+TLE.parse = function( value ) {
+  return new TLE().parse( value )
+}
+
+TLE.parseFloat = function( value ) {
+  
+  var pattern = /([-])?([\.0-9]+)([+-]\d+)?/
+  var match = null
+  
+  if( match = pattern.exec( value ) ) {
+    var sign = match[1] === '-' ? -1 : 1
+    var power = match[3] ? 'e'+match[3] : 'e0'
+    return sign * parseFloat( match[2] + power )
+  }
+  
+  return NaN
+  
 }
 
 TLE.prototype = {
   
   constructor: TLE,
   
-  parse: function( str ) {
+  parse: function( value ) {
     return this
   },
   
