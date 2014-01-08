@@ -7,6 +7,12 @@
     "email": "jhermsmeier@gmail.com"
   },
   "main": "lib/tle",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": ""
+  },
   "repository": {
     "type": "git",
     "url":  "https://github.com/jhermsmeier/node-tle.git"
