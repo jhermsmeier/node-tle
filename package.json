@@ -1,6 +1,6 @@
 {
   "name": "tle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Two-line element set (TLE) data format",
   "author": {
     "name":  "Jonas Hermsmeier",
@@ -8,7 +8,7 @@
   },
   "main": "lib/tle",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/.bin/mocha"
   },
   "devDependencies": {
     "mocha": ""
