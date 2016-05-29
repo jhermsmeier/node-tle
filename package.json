@@ -1,23 +1,38 @@
 {
   "name": "tle",
-  "version": "0.1.1",
-  "description": "Two-line element set (TLE) data format",
-  "author": {
-    "name":  "Jonas Hermsmeier",
-    "email": "jhermsmeier@gmail.com"
-  },
-  "main": "lib/tle",
-  "scripts": {
-    "test": "node node_modules/.bin/mocha"
-  },
+  "version": "1.0.0",
+  "description": "Two-line element set (TLE) data format parser",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "license": "MIT",
+  "keywords": [
+    "tle",
+    "orbit",
+    "orbital",
+    "nasa",
+    "parser",
+    "format",
+    "sgp",
+    "sdp",
+    "norad",
+    "space"
+  ],
+  "main": "lib/tle.js",
+  "dependencies": {},
   "devDependencies": {
-    "mocha": ""
+    "mocha": "~2.5.3"
   },
+  "homepage": "https://github.com/jhermsmeier/node-tle",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/jhermsmeier/node-tle.git"
+    "url": "git+https://github.com/jhermsmeier/node-tle.git"
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-tle/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
