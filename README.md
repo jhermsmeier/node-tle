@@ -1,7 +1,10 @@
-Two-line element set (TLE)
-==========================
-[![build status](https://secure.travis-ci.org/jhermsmeier/node-tle.png)](http://travis-ci.org/jhermsmeier/node-tle)
-[![NPM version](https://badge.fury.io/js/tle.png)](https://npmjs.org/tle)
+# Two-line element set (TLE)
+[![npm](https://img.shields.io/npm/v/tle.svg?style=flat-square)](https://npmjs.com/tle)
+[![npm license](https://img.shields.io/npm/l/tle.svg?style=flat-square)](https://npmjs.com/tle)
+[![npm downloads](https://img.shields.io/npm/dm/tle.svg?style=flat-square)](https://npmjs.com/tle)
+[![build status](https://img.shields.io/travis/jhermsmeier/node-tle.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-tle)
+
+Two-line element set (TLE) data format parser
 
 A two-line element set ([TLE]) is a data format used to convey sets of orbital elements that describe the orbits of Earth-orbiting satellites. A computer program called a model can use the TLE to compute the position of a satellite at a particular time. The TLE is a format specified by NORAD and used by [NORAD] and [NASA]. The TLE can be used directly by the [SGP4] model (or one of the SGP8, [SDP4], SDP8 models). Orbital elements are determined for many thousands of space objects by NORAD and are freely distributed on the Internet in the form of TLEs. A TLE consists of a title line followed by two lines of formatted text.
 
@@ -13,20 +16,16 @@ A two-line element set ([TLE]) is a data format used to convey sets of orbital e
 [SGP4]: http://en.wikipedia.org/wiki/SGP4
 [SDP4]: http://en.wikipedia.org/wiki/SDP4
 
+## Install via [npm](https://npmjs.com/package/tle)
 
-Install via [npm](https://npmjs.org)
-------------------------------------
 ```sh
-$ npm install tle
+$ npm install --save tle
 ```
 
-Format
-------
+## Format
 
 **More,  detailed information is available at [NASA Human Space Flight](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html):**
 
 [![TLE](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/2line.gif)](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html)
-
-> From [NASA Human Space Flight](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html)
 
 Some data to play around with can be found at [Celestrak](http://www.celestrak.com/NORAD/elements/master.asp).
