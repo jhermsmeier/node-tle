@@ -29,3 +29,41 @@ $ npm install --save tle
 [![TLE](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/2line.gif)](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html)
 
 Some data to play around with can be found at [Celestrak](http://www.celestrak.com/NORAD/elements/master.asp).
+
+## Usage
+
+```js
+var TLE = require( 'tle' )
+```
+
+```js
+var set = 'ISS (ZARYA)\n' +
+  '1 25544U 98067A   08264.51782528 -.00002182  00000-0 -11606-4 0  2927\n' +
+  '2 25544  51.6416 247.4627 0006703 130.5360 325.0288 15.72125391563537'
+```
+
+```js
+var tle = TLE.parse( set )
+```
+
+```js
+TLE {
+  name: 'ISS (ZARYA)',
+  number: 25544,
+  class: 'U',
+  id: '98067A',
+  date: 2008-09-20T12:25:40.104Z,
+  fdmm: -0.00002182,
+  sdmm: 0,
+  drag: -1.1606,
+  ephemeris: 0,
+  esn: 292,
+  inclination: 51.6416,
+  ascension: 247.4627,
+  eccentricity: '0006703',
+  perigee: 130.536,
+  anomaly: 325.0288,
+  motion: 15.721253915,
+  revolution: 6353
+}
+```
