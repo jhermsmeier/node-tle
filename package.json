@@ -17,7 +17,9 @@
     "space"
   ],
   "main": "lib/tle.js",
-  "dependencies": {},
+  "dependencies": {
+    "bloodline": "~1.0.0"
+  },
   "devDependencies": {
     "mocha": "~3.1.2"
   },
