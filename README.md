@@ -40,6 +40,8 @@ Some data to play around with can be found at [Celestrak](http://www.celestrak.c
 var TLE = require( 'tle' )
 ```
 
+### Parsing a single set
+
 ```js
 var set = 'ISS (ZARYA)\n' +
   '1 25544U 98067A   08264.51782528 -.00002182  00000-0 -11606-4 0  2927\n' +
@@ -70,4 +72,37 @@ TLE {
   motion: 15.721253915,
   revolution: 6353
 }
+```
+
+### Parsing a stream
+
+```js
+var parser = new TLE.Parser( options ) // OR
+var parser = TLE.createParser( options )
+````
+
+```js
+fs.createReadStream( FILEPATH )
+  .pipe( new TLE.Parser() )
+  .on( 'data', function( tle ) {
+    // ...
+  })
+```
+
+## Speed
+
+It can read, stream & parse ~2500 TLEs from the file system in about 100ms.
+
+```
+node example/fs-stream.js
+Parser: 2517 TLEs, 108ms, 23306 op/s
+Parser: 23 op/ms
+```
+
+## Examples
+
+See `examples` folder for runnable examples:
+```
+node examples/fs-stream.js
+node examples/http-stream.js
 ```
