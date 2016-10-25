@@ -1,8 +1,8 @@
 {
   "name": "tle",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Two-line element set (TLE) data format parser",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
   "keywords": [
     "tle",
@@ -32,6 +32,7 @@
     "url": "https://github.com/jhermsmeier/node-tle/issues"
   },
   "directories": {
+    "example": "example",
     "test": "test"
   },
   "scripts": {
