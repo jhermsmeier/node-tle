@@ -19,7 +19,7 @@
   "main": "lib/tle.js",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "~2.5.3"
+    "mocha": "~3.1.2"
   },
   "homepage": "https://github.com/jhermsmeier/node-tle",
   "repository": {
