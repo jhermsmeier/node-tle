@@ -1,6 +1,6 @@
 {
   "name": "tle",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Two-line element set (TLE) data format parser",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
