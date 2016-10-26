@@ -18,7 +18,7 @@ describe( 'TLE.fromJSON', function() {
       esn: 292,
       inclination: 51.6416,
       ascension: 247.4627,
-      eccentricity: '0006703',
+      eccentricity: 0.0006703,
       perigee: 130.536,
       anomaly: 325.0288,
       motion: 15.721253915,
