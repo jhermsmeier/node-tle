@@ -32,7 +32,7 @@ $ npm install --save tle
   </a>
 </h3>
 
-Some data to play around with can be found at [Celestrak](http://www.celestrak.com/NORAD/elements/master.asp).
+Some data to play around with can be found at [Celestrak](http://www.celestrak.com/NORAD/elements/) and in [Celestrak's Master Index](http://www.celestrak.com/NORAD/elements/master.asp).
 
 ## Usage
 
