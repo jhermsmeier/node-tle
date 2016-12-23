@@ -21,7 +21,7 @@
     "bloodline": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "~3.1.2"
+    "mocha": "~3.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-tle",
   "repository": {
