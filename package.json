@@ -17,11 +17,14 @@
     "space"
   ],
   "main": "lib/tle.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "bloodline": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "~3.2.0"
+    "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-tle",
   "repository": {
@@ -30,12 +33,5 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-tle/issues"
-  },
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha"
   }
 }
