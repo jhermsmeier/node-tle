@@ -54,3 +54,22 @@ describe( 'TLE.parseFloat', function() {
   })
 
 })
+
+describe( 'TLE.parseDrag', function() {
+
+  it( 'should parse a value with positive exponent', function() {
+    var num = TLE.parseDrag( '11606+4' )
+    assert.equal( num, 0.11606e4 )
+  })
+
+  it( 'should parse a value with negative exponent', function() {
+    var num = TLE.parseDrag( '11606-4' )
+    assert.equal( num, 0.11606e-4 )
+  })
+
+  it( 'should parse a signed value with exponent', function() {
+    var num = TLE.parseDrag( '-11606-4' )
+    assert.equal( num, -0.11606e-4 )
+  })
+
+})
