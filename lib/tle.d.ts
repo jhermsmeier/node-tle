@@ -5,6 +5,11 @@ declare class TLE {
   static createParser(options?: Object): any;
   static parse(value: string): TLE;
   static fromJSON(value: string | Object): TLE;
+  static parseFloat(value: string): number;
+  static parseDrag(value: string): number;
+  static parseDate(value: string): Date;
+  static check(line: string): number;
+  static trim(str: string): string;
 
   name: string;
   number: number;
