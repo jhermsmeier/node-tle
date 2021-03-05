@@ -21,8 +21,8 @@ describe( 'TLE.fromJSON', function() {
       eccentricity: 0.0006703,
       perigee: 130.536,
       anomaly: 325.0288,
-      motion: 15.721253915,
-      revolution: 6353,
+      motion: 15.72125391,
+      revolution: 56353,
     }
 
     var data = JSON.stringify( expected )
