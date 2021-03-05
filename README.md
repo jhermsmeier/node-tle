@@ -24,7 +24,7 @@ $ npm install --save tle
 
 ## Format
 
-**More,  detailed information is available at [NASA Human Space Flight](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html):**
+**More,  detailed information is available at [NASA Human Space Flight](https://web.archive.org/web/20200609193115/https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html):**
 
 <h3 align="center">
   <a href="https://web.archive.org/web/20200609193115/https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html">
