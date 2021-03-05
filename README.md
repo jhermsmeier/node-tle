@@ -27,8 +27,8 @@ $ npm install --save tle
 **More,  detailed information is available at [NASA Human Space Flight](http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html):**
 
 <h3 align="center">
-  <a href="http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html">
-    <img alt="Definition of Two-line Element Set Coordinate System" src="http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/2line.gif">
+  <a href="https://web.archive.org/web/20200609193115/https://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html">
+    <img alt="Definition of Two-line Element Set Coordinate System" src="./doc/2line.gif">
   </a>
 </h3>
 
