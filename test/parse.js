@@ -17,11 +17,14 @@ describe( 'TLE.parse', function() {
       class: 'U',
       id: '98067A',
       date: new Date( '2008-09-20T12:25:40.104Z' ),
+      epochYear: 8,
+      epochDay: 264.51782528,
       fdmm: -0.00002182,
       sdmm: 0,
       drag: -0.11606e-4,
       ephemeris: 0,
       esn: 292,
+      checksum1: 7,
       inclination: 51.6416,
       ascension: 247.4627,
       eccentricity: 0.0006703,
@@ -29,6 +32,7 @@ describe( 'TLE.parse', function() {
       anomaly: 325.0288,
       motion: 15.72125391,
       revolution: 56353,
+      checksum2: 7,
     }
 
     assert.deepEqual( tle, expected )
@@ -48,11 +52,14 @@ describe( 'TLE.parse', function() {
       class: 'U',
       id: '98067A',
       date: new Date( '2008-09-20T12:25:40.104Z' ),
+      epochYear: 8,
+      epochDay: 264.51782528,
       fdmm: -0.00002182,
       sdmm: 0,
       drag: -0.11606e-4,
       ephemeris: 0,
       esn: 292,
+      checksum1: 7,
       inclination: 51.6416,
       ascension: 247.4627,
       eccentricity: 0.0006703,
@@ -60,6 +67,7 @@ describe( 'TLE.parse', function() {
       anomaly: 325.0288,
       motion: 15.72125391,
       revolution: 56353,
+      checksum2: 7,
     }
 
     assert.deepEqual( tle, expected )

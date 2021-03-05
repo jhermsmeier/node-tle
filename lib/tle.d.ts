@@ -1,4 +1,4 @@
-import Parser from './stream';
+import Parser = require('./stream');
 
 export = TLE;
 declare class TLE {
@@ -11,11 +11,14 @@ declare class TLE {
   class: string;
   id: string;
   date: Date;
+  epochYear: number;
+  epochDay: number;
   fdmm: number;
   sdmm: number;
   drag: number;
   ephemeris: number;
   esn: number;
+  checksum1: number;
   inclination: number;
   ascension: number;
   eccentricity: number;
@@ -23,6 +26,7 @@ declare class TLE {
   anomaly: number;
   motion: number;
   revolution: number;
+  checksum2: number;
 
   parse(value: string): TLE;
 
