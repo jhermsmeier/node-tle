@@ -59,14 +59,11 @@ TLE {
   class: 'U',
   id: '98067A',
   date: Date<'2008-09-20T12:25:40.104Z'>,
-  epochYear: 8,
-  epochDay: 264.51782528,
   fdmm: -0.00002182,
   sdmm: 0,
   drag: -0.000011606,
   ephemeris: 0,
   esn: 292,
-  checksum1: 7,
   inclination: 51.6416,
   ascension: 247.4627,
   eccentricity: 0.0006703,
@@ -74,7 +71,6 @@ TLE {
   anomaly: 325.0288,
   motion: 15.72125391,
   revolution: 56353,
-  checksum2: 7,
 }
 ```
 
